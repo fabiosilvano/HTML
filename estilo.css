@@ -1,0 +1,185 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 4 de nov. de 2021, 20:42:04
+    Author     : fabio
+*/
+
+
+/* Layout baseado em flutuação */
+
+body {
+    background-color: #FBF8F3;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.container-header {
+    width: 80%;
+    
+    margin: 0 auto;
+ 
+}
+
+#topo {
+    width: 96%;
+    height: 100px;
+    background-color: #F93;
+    float: left;
+    padding: 2%;
+}
+
+#topo h1 a {
+    max-width: 214px;
+    width: 100%;
+    height: 93px;
+    float: left;
+    display: block; 
+    background: url(img/logo.png) no-repeat ;
+    text-indent: -9999px;
+    background-repeat: no-repeat; 
+}
+
+#logo {
+    width: 15%;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+
+#menu {
+    width: 60%;
+    height: auto;
+   
+    float: right; 
+    margin-top: 40px;
+}
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0; 
+}
+#menu ul {
+    float: right;
+}
+
+#menu a{
+    color: #fff;
+    float: left;
+    margin-left: 40px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #777;
+}
+#banner h1 {
+    margin-top: 50px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#banner img {
+    width: 100%; 
+    border: none;
+    
+}
+.container-post {
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+    display: table;
+}
+
+article {
+    margin-bottom: 80px;
+}
+#coluna-left {
+    padding: 1%;
+    width: 68%;
+    height: auto;
+    float: left;
+}
+
+#coluna-left img {
+    max-width: 244px;
+    width: 100%;
+}
+#coluna-left figure{
+    margin: 20px 20px 0 0;
+    float: left;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+figcaption {
+   font-style: italic;
+   font-size: 12px;
+   margin: 5px 0 0 0;
+}
+
+.saiba-mais a {
+    color: #fff;
+    text-decoration: none; 
+    font-size: 14px;
+    background:#FFA042;
+    
+    padding:10px 20px 10px 20px;
+    margin: 0;
+}
+
+.saiba-mais a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#coluna-left p {
+    margin-top: 30px;
+}
+#coluna-right {
+    padding: 1%;
+    width: 28%;
+    height: auto;
+    float: left;
+}
+
+#coluna-right img {
+    max-width: 226px;
+    width: 100%;
+}
+
+aside {
+    background-color: #FFA042;
+    padding:2%;
+    margin-bottom: 20px;
+}
+
+#footer {
+    width: 98%;
+    height: 50px;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 10px;
+    padding: 1%;
+}
